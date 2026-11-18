@@ -61,7 +61,7 @@ No anfitrião, executei `mstsc`, informei o IP `192.168.1.100` e entrei com o e-
 
 - **Sintoma:** a VM aparecia com o IP 10.0.2.15 e o anfitrião não conseguia testar a conexão.
 - **Causa:** 10.0.2.15 é o endereço do modo NAT do VirtualBox, que só existe dentro da rede virtual.
-- **Solução:** trocar o adaptador para Bridge (passo 1). Na primeira tentativa também digitei o texto `IP_DA_VM` literalmente no comando e recebi "Name resolution failed": o comando precisa do IP real.
+- **Solução:** trocar o adaptador para Bridge (passo 1).
 
 ### 3. Erro ao conectar com a Área de Trabalho Remota desativada
 
